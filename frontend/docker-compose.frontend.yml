@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    container_name: tienda-frontend
+    restart: always
+    ports:
+      - "80:80"
